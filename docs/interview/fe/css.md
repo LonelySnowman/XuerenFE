@@ -426,7 +426,7 @@ https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_display/Block_formatting_co
 - `BFC`就是一个块级元素，块级元素会在垂直方向一个接一个的排列
 - `BFC`就是页面中的一个隔离的独立容器，容器里的标签不会影响到外部标签
 - 垂直方向的距离由margin决定， 属于同一个`BFC`的两个相邻的标签外边距会发生重叠
-- 计算`BFC`的高度时，浮动元素也参与计算
+-  Content-Security-Policy: default-src 'self'http request
 
 ### 解决问题
 

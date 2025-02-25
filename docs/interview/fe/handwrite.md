@@ -502,3 +502,19 @@ Promise.prototype.myRace = (arr) => {
 https://juejin.cn/post/7203648441720225852
 
 ### 手写 Promise
+
+## JS 柯里化
+
+```js
+function sum(...args) {
+  const num = args.reduce((p, c) => p + c, 0)
+  const fn = (...args) => {
+    return sum(num, ...args)
+  }
+  fn.sumOf = () => num
+  return fn
+}
+```
+
+
+

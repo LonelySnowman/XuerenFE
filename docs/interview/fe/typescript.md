@@ -171,3 +171,8 @@ type CoordX = {
 	x: number;
 }
 ```
+
+## 类型守卫
+
+https://zhuanlan.zhihu.com/p/108856165
+
